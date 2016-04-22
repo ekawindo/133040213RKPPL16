@@ -17,7 +17,7 @@ public class MahasiswaTest {
 	
 	@Test
 	public void test1(){
-//		m.setNrp("133040213");
+		m.setNrp("133040213");
 		assertNotNull("Seharusnya tidak null", m.getNrp());
 	}
 	
